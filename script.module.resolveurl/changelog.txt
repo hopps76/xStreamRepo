@@ -1,18 +1,19 @@
-Version 5.1.72 (July 18, 2022)
+Version 5.1.74 (Aug 12, 2022)
 - Code Base Changes:
-    - fix incorrect firefox UA
-    - fix get_redirect_url function
+    - http_REDIRECT_URL method removed from net
+      and integrated into helpers
 
 - Resolvers Added:
-    - None
+    - superembeds
 
 - Resolvers Fixed/Updated:
-    - fembed
+    - cloudb
+    - dood
+    - filemoon
     - streamingcommunity
     - streamsb
-    - streamrapid
-    - tubeload
     - uploadever
+    - vidcloud9
     - voesx
 
 - Resolvers Removed
