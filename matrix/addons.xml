@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.xstream" name="xStream" version="3.5.37" provider-name="xStream-Team">
+<addon id="plugin.video.xstream" name="xStream" version="3.5.38" provider-name="xStream-Team">
  <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.resolveurl" version="5.1.67"/>
@@ -85,7 +85,7 @@ Siehe Changelog
     </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.84" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.85" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
