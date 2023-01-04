@@ -1,15 +1,19 @@
-Version 5.1.85 (Dec 03, 2022)
+Version 5.1.87 (Jan 02, 2023)
 - Code Base Changes:
     - None
 
 - Resolvers Added:
-    - streamvids
+    - streamhide
 
 - Resolvers Fixed/Updated:
+    - dembed
     - fembed
-    - hexupload
-    - playhd
-    - vidmx
+    - goload
+    - neohd
+    - streamsb
+    - uploadever
+    - vidcloud9
+    - voesx
 
 - Resolvers Removed
     - None
