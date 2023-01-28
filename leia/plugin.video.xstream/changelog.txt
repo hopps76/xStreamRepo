@@ -1,4 +1,10 @@
-[B]Version: 3.5.39~Release[/B]
+[B]Version: 3.5.40~Release[/B]
+
+04.01.2023 - 24.01.2023
+
+ - [s.to] Update Suchfunktion - thx to Suuhm 4 input :)
+ - [Aniworld} Update Suchfunktion - Source from s.to
+ - [KinoGer] Hoster KinoGer.pw fixed
 
 [COLOR cyan]________________________________________________________________________________________[/COLOR]
 
