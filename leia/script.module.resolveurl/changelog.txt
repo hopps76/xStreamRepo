@@ -1,12 +1,14 @@
-Version 5.1.91 (Feb 06, 2023)
+Version 5.1.94 (Mar 06, 2023)
 - Code Base Changes:
-    - Add missing settings.xml
+    - None
 
 - Resolvers Added:
-    - None
+    - duboku
 
 - Resolvers Fixed/Updated:
-    - None
+    - videa
+    - vudeo
+    - voesx
 
 - Resolvers Removed
     - None
