@@ -1,20 +1,18 @@
-Version 5.1.98 (May 16, 2023)
+Version 5.1.104 (Jul 31, 2023)
 - Code Base Changes:
     - None
 
 - Resolvers Added:
-    - film77
-    - streamwish
-    - vidello
-    - vidlook
+    - None
 
 - Resolvers Fixed/Updated:
-    - cloudvideo
-    - mixdrop
-    - speedostream
-    - streamhide
-    - streamsb
-
+    - embedgram
+    - neohd
+    - streamwish
+    - uqload
+    - vembx
+    - voesx
+    - vtube
 
 - Resolvers Removed
     - None
