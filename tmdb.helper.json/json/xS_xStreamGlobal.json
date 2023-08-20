@@ -1,7 +1,7 @@
 {
     "name" 				: "xStream (Alle Seiten)",
     "plugin" 			: "plugin.video.xstream",
-    "priority"          : 200,
+    "priority"          : 5,
 	"language"          : "de",
     "is_resolvable"     : "true",
 	"assert"            :{

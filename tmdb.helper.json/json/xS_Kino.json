@@ -1,31 +1,21 @@
 {
     "name"              : "[COLORred]Kino[/COLOR]",
 	"plugin" 			: "plugin.video.xstream",
-	"priority"          : 200,
+	"priority"          : 70,
 	"language"          : "de",
 	"is_resolvable"     : "true",
 	"assert"            :{
 							"play_movie":       ["title", "year"],
-							"play_episode":     ["showname", "season", "episode"],
-							"search_movie":     ["title"],
-							"search_episode":   ["showname"]  
+							"search_movie":     ["title"]
+  
 						},
 	"fallback"			:{
-							"play_movie": "xS_GlobalSearch.json search_movie",
-							"play_episode": "xS_GlobalSearch.json search_episode"
+							"play_movie": "xS_GlobalSearch.json search_movie"
 						},
     "play_movie" 		:[
 							"plugin://plugin.video.xstream/?function=showSearch&site=kino",
 							{"keyboard": "{showname}"},
 							{"title": "{showname}"}
-						],						
-	"play_episode"      :[
-							"plugin://plugin.video.xstream/?function=showSearch&site=kino",
-							{"keyboard": "{showname}"},
-							{"title": "{showname}"},
-							{"dialog": "True"},
-							{"season": "{season}"},
-							{"episode": "{episode}"}
-                        ]
+						]
 }
 

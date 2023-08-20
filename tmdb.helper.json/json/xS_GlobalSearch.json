@@ -1,7 +1,7 @@
 {
     "name" 				: "in Globaler Suche",
     "plugin" 			: "plugin.video.xstream",
-    "priority"          : 200,
+    "priority"          : 300,
 	"language"          : "de",
     "is_resolvable"     : "true",
 	"assert"            :{

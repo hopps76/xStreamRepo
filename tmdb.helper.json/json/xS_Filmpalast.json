@@ -1,7 +1,7 @@
 {
     "name"              : "[COLORgreen]FilmPalast[/COLOR]",
 	"plugin" 			: "plugin.video.xstream",
-	"priority"          : 200,
+	"priority"          : 40,
 	"language"          : "de",
 	"is_resolvable"     : "true",
 	"assert"            :{
@@ -17,7 +17,7 @@
     "play_movie" 		:[
 							"plugin://plugin.video.xstream/?function=showSearch&site=filmpalast",
 							{"keyboard": "{showname}"},
-							{"dialog": "auto"}
+							{"title": "{showname}"}
 						],						
 	"play_episode"      :[
 							"plugin://plugin.video.xstream/?function=showSearch&site=filmpalast",

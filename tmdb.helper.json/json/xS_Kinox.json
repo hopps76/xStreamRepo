@@ -1,7 +1,7 @@
 {
     "name"              : "[COLORyellow]KinoX[/COLOR]",
 	"plugin" 			: "plugin.video.xstream",
-	"priority"          : 200,
+	"priority"          : 100,
 	"language"          : "de",
 	"is_resolvable"     : "true",
 	"assert"            :{
@@ -11,6 +11,7 @@
 							"search_episode":   ["showname"]  
 						},
 	"fallback"			:{
+							"play_movie": "xS_GlobalSearch.json search_movie",
 							"play_episode": "xS_GlobalSearch.json search_episode"
 						},
     "play_movie" 		:[

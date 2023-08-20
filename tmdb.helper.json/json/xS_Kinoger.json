@@ -1,7 +1,7 @@
 {
     "name"              : "[COLORcyan]KinoGer[/COLOR]",
 	"plugin" 			: "plugin.video.xstream",
-	"priority"          : 200,
+	"priority"          : 80,
 	"language"          : "de",
 	"is_resolvable"     : "true",
 	"assert"            :{
@@ -11,12 +11,13 @@
 							"search_episode":   ["showname"]  
 						},
 	"fallback"			:{
+							"play_movie": "xS_GlobalSearch.json search_movie",
 							"play_episode": "xS_GlobalSearch.json search_episode"
 						},
     "play_movie" 		:[
 							"plugin://plugin.video.xstream/?function=showSearch&site=kinoger",
-							{"keyboard": "{title}"},
-							{"title": "(?i).*{title}.*", "year": "{year}"}
+							{"keyboard": "{showname}"},
+							{"title": "{showname}"}
 						],						
 	"play_episode"      :[
 							"plugin://plugin.video.xstream/?function=showSearch&site=kinoger",

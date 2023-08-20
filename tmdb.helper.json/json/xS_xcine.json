@@ -1,7 +1,7 @@
 {
     "name"              : "[COLORpink]xCine[/COLOR]",
 	"plugin" 			: "plugin.video.xstream",
-	"priority"          : 200,
+	"priority"          : 180,
 	"language"          : "de",
 	"is_resolvable"     : "true",
 	"assert"            :{

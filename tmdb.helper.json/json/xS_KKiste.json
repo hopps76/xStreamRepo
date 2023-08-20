@@ -1,7 +1,7 @@
 {
     "name"              : "[COLORgreen]KKiste[/COLOR]",
 	"plugin" 			: "plugin.video.xstream",
-	"priority"          : 200,
+	"priority"          : 110,
 	"language"          : "de",
 	"is_resolvable"     : "true",
 	"assert"            :{
@@ -11,21 +11,12 @@
 							"search_episode":   ["showname"]  
 						},
 	"fallback"			:{
-							"play_movie": "xS_GlobalSearch.json search_movie",
-							"play_episode": "xS_GlobalSearch.json search_episode"
+							"play_movie": "xS_GlobalSearch.json search_movie"
 						},
     "play_movie" 		:[
 							"plugin://plugin.video.xstream/?function=showSearch&site=kkiste",
 							{"keyboard": "{showname}"},
 							{"title": "{showname}"}
-						],						
-	"play_episode"      :[
-							"plugin://plugin.video.xstream/?function=showSearch&site=kkiste",
-							{"keyboard": "{showname}"},
-							{"title": "{showname}"},
-							{"return": "Auto", "season": "{season}", "episode": "{episode}"},
-							{"season": "{season}"},
-							{"season": "{season}", "episode": "{episode}"}
-                        ]
+						]
 }
 
