@@ -7,6 +7,13 @@ Hier findet Ihr alle benötigten Dateien um den ganzen Umfang von xStream via Ko
 
 ***
 
+Pull Requests einreichen oder Fehler melden könnt Ihr hier.
+### | [Pull Request Nightly](https://github.com/streamxstream/plugin.video.xstream/compare)
+
+### | [Fehler melden](https://github.com/streamxstream/plugin.video.xstream/issues/new?assignees=&labels=Fehlermeldung&projects=&template=fehler-melden.md&title=Fehler+Melden)
+
+***
+
 Habt Ihr Fragen rund um xStream findet Ihr sicher eure Antworten in unserer FAQ.
 ### | [FAQ](https://github.com/streamxstream/xStream-FAQ/blob/master/xStream_Anleitung_FAQ.md)
 
