@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.xstream" name="xStream" version="4.0.7" provider-name="xStream-Team">
+<addon id="plugin.video.xstream" name="xStream" version="4.0.8" provider-name="xStream-Team">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
@@ -58,13 +58,8 @@
   </extension>
 </addon>
 
-<addon id="repository.xstream" name="xStream Repository" version="1.2.0" provider-name="xStream-Team">
+<addon id="repository.xstream" name="xStream Repository" version="1.2.1" provider-name="xStream-Team">
 	<extension point="xbmc.addon.repository" name="xStream Repository">
-		<dir minversion="17.9.910" maxversion="18.9.700">
-            <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/leia/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/leia/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/leia/</datadir>
-        </dir>
         <dir minversion="18.9.701" maxversion="19.9.700">
             <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/matrix/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/matrix/addons.xml.md5</checksum>
@@ -74,6 +69,11 @@
             <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/nexus/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/nexus/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/nexus/</datadir>
+        </dir>
+		<dir minversion="20.9.910" maxversion="21.9.700">
+            <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/omega/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/omega/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/omega/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -88,7 +88,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.108" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.122" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />

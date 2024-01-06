@@ -1,12 +1,17 @@
 [B]Version: 4.0.8[/B]
 
-01.09.2023 - 05.01.2024
+05.01.2024
 
  - [HDFilme] letzte Domain offline (Wechsel auf www.hdfilme.tel)
  - [CheckDomain] überarbeitet. Wenn Seite nicht erreichbar dann Domain löschen.
  - [Updatemanager] überarbeitet für Resolver Update und xStream Versionen
  - [Settings] angepasst für xStream Versionen
  - [Sprachdateien] hinzugefügt (Nach Update Neustart erforderlich)
+ 
+ [COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+01.01.2024
+
  - [Cineclix] Film bzw. Serienmenü erstellt 
    (kleines) Genre (ohne Filterfunktion) hinzugefügt
    Anpassung Qualitätsanzeige
@@ -19,18 +24,48 @@
  - [Movie4k] Aktualisierung der Domain
  - [Streamcloud] Aktualisierung der Domain
  - [xCine] Überflüssigen Code entfernt
+ 
+ [COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+02.12.2023
+
  - [moflix-stream] Fix: Staffeln mit mehr als 30 Episoden wurden nicht korrekt angezeigt
  - [Movieking.cc] deaktiviert
+ 
+ [COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+25.11.2023
+
  - [Cineclix] Fix: Erste Staffel wird bei mehr als acht Staffeln nicht mehr angezeigt
  - [xstream] Code maintenance
  - [Movieking] Fix für falsche Domain, temporär nicht erreichbar wegen reCaptcha
+
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+24.11.2023
+
  - [Kinofox] Offline -> deaktiviert
  - [Stumbleupon] Offline -> deaktiviert
+
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+29.10.2023
+
  - [xstream] Anpassung Zensurmeldung
+
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+22.10.2023
+
  - [Flimmerstube] Vorwärts Blättern funktioniert nicht behoben (requesthandler)
+
+[COLOR cyan]________________________________________________________________________________________[/COLOR]
+
+22.09.2023
+
  - [Serienstream] Neuen Proxyserver in Einstellungen übernommen
  - [CineClix] Update Plugin
  - [Moflix-Stream] Update Plugin
 
 [COLOR cyan]________________________________________________________________________________________[/COLOR]
-[I]*Editierhinweis: Text nicht länger als die Linie. Keine Tabulatoren verwenden![/I]
+

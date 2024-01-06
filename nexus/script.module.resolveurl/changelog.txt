@@ -1,25 +1,18 @@
-Version 5.1.108 (Sep 3, 2023)
+Version 5.1.122 (Jan 03, 2024)
 - Code Base Changes:
-    - Update User-Agents
+    - Subtitle scraping support
 
 - Resolvers Added:
-    - updown
-    - vidtube
+    - streamgzzz
 
 - Resolvers Fixed/Updated:
     - dembed
-    - goload
-    - hdvid
-    - lulustream
-    - reviewrate
-    - speedostream
+    - mixdrop
+    - streamwish
     - vidguard
-    - vimoly
-    - voesx
-    - vtube
 
 - Resolvers Removed
     - None
 
 - Languages Added/Updated
-    - All
+    - None
