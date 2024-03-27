@@ -1,15 +1,14 @@
-Version 5.1.122 (Jan 03, 2024)
+Version 5.1.129 (Mar 24, 2024)
 - Code Base Changes:
-    - Subtitle scraping support
+    - None
 
 - Resolvers Added:
-    - streamgzzz
+    - viralweb8
 
 - Resolvers Fixed/Updated:
-    - dembed
     - mixdrop
-    - streamwish
-    - vidguard
+    - vidmojo
+    - vk
 
 - Resolvers Removed
     - None
