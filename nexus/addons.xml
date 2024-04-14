@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.xstream" name="xStream" version="4.0.9" provider-name="xStream-Team">
+<addon id="plugin.video.xstream" name="hopps" version="4.0.10" provider-name="hopps team">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
@@ -17,8 +17,8 @@
 	</extension>
     <extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="de">Hopps Hopps Schau über xStream!</summary>
-		<summary lang="en_GB">Hopps Hopps Watch over xStream!</summary>
+		<summary lang="de">ForkedForkedForked hopps76Schau über xStream!</summary>
+		<summary lang="en_GB">ForkedForkedForked h over xStream!</summary>
 		<description lang="de">Mit diesem Addon kannst du auf angebotene Streams, verschiedener Quellen zugreifen.</description>
 		<description lang="en_GB">With this addon you can access streams offered by various sources.</description>
 		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
