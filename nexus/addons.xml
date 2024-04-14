@@ -66,9 +66,9 @@
             <datadir zip="true">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/matrix/</datadir>
         </dir>
         <dir minversion="19.9.701" maxversion="20.9.700">
-            <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/nexus/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/nexus/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/nexus/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/hopps76/xStreamRepo/master/nexus/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/hopps76/xStreamRepo/master/nexus/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/hopps76/xStreamRepo/master/nexus/</datadir>
         </dir>
 		<dir minversion="20.9.910" maxversion="21.9.700">
             <info compressed="false">https://raw.githubusercontent.com/streamxstream/xStreamRepo/master/omega/addons.xml</info>
@@ -77,7 +77,7 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-		<summary lang="de_DE">xStream Repository</summary>
+		<summary lang="de_DE">Forked xStream Repository</summary>
 		<description lang="de_DE">Dies ist das offizielle xStream Addon-Verzeichnis.[CR]Bei der Bereitstellung einer neuen Version von xStream wird diese auf Funktionalität geprüft. Sollten dennoch Probleme auftreten benachrichtige bitte das offizielle xStream-Team.</description>
 		<disclaimer lang="de_DE">Die dargestellten Inhalte des in diesem Verzeichnis enthaltenen Addons werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
 		<platform>all</platform>
